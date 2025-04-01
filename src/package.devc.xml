@@ -4,8 +4,6 @@
   <asx:values>
    <DEVC>
     <CTEXT>joomp.de component JSON</CTEXT>
-    <COMP_POSID>BC-MID-CON</COMP_POSID>
-    <COMPONENT>B5A0000013</COMPONENT>
    </DEVC>
   </asx:values>
  </asx:abap>

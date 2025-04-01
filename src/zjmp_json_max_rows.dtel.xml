@@ -16,6 +16,7 @@
     <DATATYPE>INT4</DATATYPE>
     <LENG>000010</LENG>
     <OUTPUTLEN>000011</OUTPUTLEN>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
@@ -29,95 +30,6 @@
      <SCRTEXT_L>Max. Resultatzeilen</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
-   <LONGTEXTS>
-    <item>
-     <DOKIL>
-      <ID>DE</ID>
-      <OBJECT>ZJMP_JSON_MAX_ROWS</OBJECT>
-      <LANGU>D</LANGU>
-      <TYP>E</TYP>
-      <VERSION>0002</VERSION>
-      <TXTLINES>00004</TXTLINES>
-      <DOKSTATE>A</DOKSTATE>
-     </DOKIL>
-     <HEAD>
-      <TDOBJECT>DOKU</TDOBJECT>
-      <TDNAME>ZJMP_JSON_MAX_ROWS</TDNAME>
-      <TDID>DE</TDID>
-      <TDSPRAS>D</TDSPRAS>
-      <TDFORM>S_DOCU_SHOW</TDFORM>
-      <TDSTYLE>S_DOCUS1</TDSTYLE>
-      <TDVERSION>00002</TDVERSION>
-      <TDLINESIZE>072</TDLINESIZE>
-     </HEAD>
-     <LINES>
-      <TLINE>
-       <TDFORMAT>U1</TDFORMAT>
-       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDFORMAT>AS</TDFORMAT>
-       <TDLINE>Mit der &lt;ZH&gt;maximalen Trefferzahl&lt;/&gt; legen Sie fest, wieviel Daten</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDLINE>maximal zurückgeliefert werden sollen. Dies ist wichtig, wenn Sie sehr</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDLINE>große InfoCubes haben und vermeiden wollen, daß z.B. Millionen von</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDLINE>Sätzen zurückgeliefert werden sollen.</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDFORMAT>*</TDFORMAT>
-      </TLINE>
-     </LINES>
-    </item>
-    <item>
-     <DOKIL>
-      <ID>DE</ID>
-      <OBJECT>ZJMP_JSON_MAX_ROWS</OBJECT>
-      <LANGU>E</LANGU>
-      <TYP>E</TYP>
-      <VERSION>0002</VERSION>
-      <MASTERLANG>X</MASTERLANG>
-      <TXTLINES>00004</TXTLINES>
-      <DOKSTATE>A</DOKSTATE>
-     </DOKIL>
-     <HEAD>
-      <TDOBJECT>DOKU</TDOBJECT>
-      <TDNAME>ZJMP_JSON_MAX_ROWS</TDNAME>
-      <TDID>DE</TDID>
-      <TDSPRAS>E</TDSPRAS>
-      <TDFORM>S_DOCU_SHOW</TDFORM>
-      <TDSTYLE>S_DOCUS1</TDSTYLE>
-      <TDVERSION>00002</TDVERSION>
-      <TDLINESIZE>072</TDLINESIZE>
-     </HEAD>
-     <LINES>
-      <TLINE>
-       <TDFORMAT>U1</TDFORMAT>
-       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDFORMAT>AS</TDFORMAT>
-       <TDLINE>With the &lt;ZH&gt;maximum no. of hits&lt;/&gt; you determine the maximum amount of</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDLINE>data that is returned. This is important if you have very large</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDLINE>InfoCubes and want to avoid millions of records being returned, for</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDLINE>exmple.</TDLINE>
-      </TLINE>
-      <TLINE>
-       <TDFORMAT>*</TDFORMAT>
-      </TLINE>
-     </LINES>
-    </item>
-   </LONGTEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>
