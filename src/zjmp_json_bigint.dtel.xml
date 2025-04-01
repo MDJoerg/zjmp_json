@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZJMP_JSON_BIGINT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>41</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>JSON: BIGINT implementation</DDTEXT>
+    <REPTEXT>Big Integer</REPTEXT>
+    <SCRTEXT_S>Big Int</SCRTEXT_S>
+    <SCRTEXT_M>Big Integer</SCRTEXT_M>
+    <SCRTEXT_L>Big Integer</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000031</LENG>
+    <OUTPUTLEN>000041</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>JSON: BIGINT implementation</DDTEXT>
+     <REPTEXT>Big Integer</REPTEXT>
+     <SCRTEXT_S>Big Int</SCRTEXT_S>
+     <SCRTEXT_M>Big Integer</SCRTEXT_M>
+     <SCRTEXT_L>Big Integer</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

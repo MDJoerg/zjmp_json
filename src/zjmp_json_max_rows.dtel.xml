@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZJMP_JSON_MAX_ROWS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Maximum number of returned records</DDTEXT>
+    <SCRTEXT_S>Max rows</SCRTEXT_S>
+    <SCRTEXT_M>Maximum lines</SCRTEXT_M>
+    <SCRTEXT_L>Max. rows for results</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>INT4</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000011</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Maximal zurückgegebene Anzahl von Sätzen</DDTEXT>
+     <SCRTEXT_S>Max Zeilen</SCRTEXT_S>
+     <SCRTEXT_M>Max. Zeilen</SCRTEXT_M>
+     <SCRTEXT_L>Max. Resultatzeilen</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZJMP_JSON_MAX_ROWS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZJMP_JSON_MAX_ROWS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit der &lt;ZH&gt;maximalen Trefferzahl&lt;/&gt; legen Sie fest, wieviel Daten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maximal zurückgeliefert werden sollen. Dies ist wichtig, wenn Sie sehr</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>große InfoCubes haben und vermeiden wollen, daß z.B. Millionen von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sätzen zurückgeliefert werden sollen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZJMP_JSON_MAX_ROWS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZJMP_JSON_MAX_ROWS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>With the &lt;ZH&gt;maximum no. of hits&lt;/&gt; you determine the maximum amount of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data that is returned. This is important if you have very large</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>InfoCubes and want to avoid millions of records being returned, for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>exmple.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

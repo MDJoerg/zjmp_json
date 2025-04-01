@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_JMP_JSON</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>JSON Interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_INTERFACE>
+    <SEOCLASSTX>
+     <LANGU>F</LANGU>
+     <DESCRIPT>JSON Interface</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_INTERFACE>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DATA_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>JSON: data type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DATA_TYPE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>JSON: data type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>access to an internal data element</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>access to an internal data element</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get data type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA_TYPE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>get data type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_NULL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>check is null value</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_NULL</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>check is null value</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TO_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>convert to string</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TO_STRING</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>convert to string</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA_TYPE</CMPNAME>
+     <SCONAME>EV_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>JSON: data type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA_TYPE</CMPNAME>
+     <SCONAME>EV_TYPE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>JSON: data type</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
