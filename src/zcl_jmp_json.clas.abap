@@ -152,63 +152,12 @@ CLASS zcl_jmp_json IMPLEMENTATION.
 
 
   METHOD base64_decode.
-** copied from SSFC_BASE64_ENCODE
-*  include_constants.
-*  DATA: bincopy TYPE xstring.
-*  DATA: binlen TYPE i.
-*  DATA: strleng TYPE i.
-*
-*
-*  CALL 'SSF_ABAP_SERVICE'                                 "#EC CI_CCALL
-*    ID 'OPCODE'          FIELD   ssf_opcodes-base64decode
-*    ID 'B64DATA'         FIELD   iv_b64coded
-*    ID 'BINDATA'         FIELD   ev_binary.
-*
-*  IF sy-subrc > 0.
-*  ENDIF.
-
+    ev_binary = cl_web_http_utility=>decode_base64( iv_b64coded ).
   ENDMETHOD.
 
 
   METHOD base64_encode.
-** copied from SSFC_BASE64_ENCODE
-*  include_constants.
-*  DATA: bincopy TYPE xstring.
-*  DATA: binlen TYPE i.
-*  DATA: strleng TYPE i.
-*
-**  if binleng = 0. "convert whole xstring
-**    bincopy = bindata.
-**  else.           "convert substring
-**    strleng = xstrlen( bindata ).
-**    if binleng < 0 or binleng > strleng.
-**      message e310(1s) raising ssf_krn_invalid_parlen.
-**    endif.
-**    bincopy = bindata(binleng).
-**  endif.
-*
-*  CALL 'SSF_ABAP_SERVICE'                                 "#EC CI_CCALL
-*    ID 'OPCODE'          FIELD   ssf_opcodes-base64encode
-*    ID 'BINDATA'         FIELD   iv_binary
-*    ID 'B64DATA'         FIELD   ev_b64coded.
-*
-*  IF sy-subrc > 0.
-**    case sy-subrc.
-**      when ssfkrn_rc-krn_noop.
-**        message e301(1s) raising ssf_krn_noop.
-**      when ssfkrn_rc-krn_nomemory.
-**        message e302(1s) raising ssf_krn_nomemory.
-**      when ssfkrn_rc-krn_opinv.
-**        message e303(1s) raising ssf_krn_opinv.
-***   WHEN SSFKRN_RC-KRN_INPUT_DATA_ERROR.
-***     MESSAGE E308(1S) RAISING SSF_KRN_INPUT_DATA_ERROR.
-**      when ssfkrn_rc-krn_invalid_par.
-**        message e309(1s) raising ssf_krn_invalid_par.
-**      when others.
-**        message e110(1s) raising ssf_krn_error.
-**    endcase.
-*  ENDIF.
-
+    ev_b64coded = cl_web_http_utility=>encode_x_base64( iv_binary ).
   ENDMETHOD.
 
 
@@ -231,9 +180,7 @@ CLASS zcl_jmp_json IMPLEMENTATION.
 
 
   METHOD escape_string.
-    "TODO
-    "ev_escaped = cl_http_utility=>escape_javascript( iv_unescaped ).
-    ev_escaped = iv_unescaped.
+    ev_escaped = escape( val = IV_UNESCAPED format = cl_abap_format=>e_json_string ).
   ENDMETHOD.
 
 
